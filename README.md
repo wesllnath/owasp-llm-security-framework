@@ -8,11 +8,14 @@ This repository hosts a production-grade infrastructure agnostic framework engin
 The execution pipeline enforces strict isolation of untrusted user data by embedding incoming payloads within immutable programmatic boundaries. This interface layout shifts the model's processing mechanism from interpretive command evaluation to literal string verification.
 
 [Untrusted Input Stream]
-↓
+│
+▼
 [Structural Sanitization Layer]
-↓
+│
+▼
 [Encapsulated XML Enclave Boundary] ──> [Restricted Inference Engine]
-↓
+│
+▼
 [Output Delivery Interface] <── [Chain-of-Thought Validation Guardrail]
 
 ## Modular System Topology (Configuration Specification)
